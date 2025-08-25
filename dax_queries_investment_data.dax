@@ -1,0 +1,16 @@
+work_status = 
+SWITCH(
+    TRUE(),
+    investment_survey[Working_professional]= 1 , "Working",
+    investment_survey[Working_professional]= 0 , "Non Working",
+    BLANK()
+)
+
+age group = 
+SWITCH(
+    TRUE(),
+    investment_survey[Age] >=18  && investment_survey[Age] <= 30 , "Young Adults",
+    investment_survey[Age] >=31  && investment_survey[Age] <= 40 , "Middle Age Adults",
+    investment_survey[Age] >=41  && investment_survey[Age] <= 50 , "Older Adults",
+    investment_survey[Age] >=51 ,"Senior Citizen",BLANK()
+)
