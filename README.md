@@ -1,4 +1,28 @@
-#A power Bi Dashboard In the Financial Investment Dataset of 100 People
+# A power Bi Dashboard In the Financial Investment Dataset of 100 People
+# Dataset overview
+This dataset appears to contain information about individuals' investment habits and financial goals.
+
+Column-wise Explanation:
+
+Gender: The gender of the individual (Male/Female).
+
+Age: The individual's age in years.
+
+Working_professional: A numerical indicator of whether the person is a working professional (1) or not (0).
+
+Annual_income: The individual's annual income.
+
+Mode_of_investment: The method or type of investment (e.g., Banking - RD, FD, Stocks, Mutual Funds, Cryptocurrency, Gold).
+
+Investment_per_month: The amount of money invested each month.
+
+Motivation_cause: The reason or motivation for investing (e.g., Family member, Self interest, Social media).
+
+Resources_used: The sources of information or guidance for investment (e.g., Family members/Friends, Mobile applications, News articles).
+
+Goal_for_investment: The specific financial goal for the investment (e.g., Wealth generation, Personal Savings, Planning for financial freedom after Retirement).
+
+Years_to_save: The number of years the individual plans to save for their goal.
 
 
 <img width="1427" height="792" alt="image" src="https://github.com/user-attachments/assets/9acd517d-32a3-41f6-a83d-b9d157f3e747" />
